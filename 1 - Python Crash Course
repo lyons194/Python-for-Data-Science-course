@@ -33,3 +33,26 @@ num = 12
 name = 'Sam'
 print('My number is: {one}, and my name is {two}'.format(one=num, two=name))
 print('My number is: {}, and my name is: {}'.format(num, name))
+
+#Index Notation for strings:
+s = 'hello'
+s[4]
+s[0:]
+s[:3]
+s[2:4]
+
+
+#Lists
+o = [1, 2, 3]
+o = ['a', 'b', 'c']
+o.append('d')
+o[0]
+o[1:3]
+o[0] = 'NEW'
+o
+nest_list = [1, 2, [3, 4]]
+nest_list[2][1]
+
+new_nest_list = [1, 2, 3 [4, 5, ['target']]]
+new_nest_list[3][2][0]
+print(new_nest_list[3][2][0])
