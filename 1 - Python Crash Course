@@ -188,6 +188,124 @@ else:
 
 
 
+#Part 3
+
+
+#For loops
+
+seq = [1, 2, 3, 4, 5]
+for item in seq:
+	print(item)
+
+#Note:  The temporary variable name (i.e. 'item' in this example) can have whatever name you want it to have.
+
+
+for screwdriver in seq:
+	print('screwdriver')
+
+
+for num in seq:
+	print('hello')
+
+
+
+#While loop
+
+i = 1
+while i < 5:
+	print('i is: {}'.format(i))
+	i = i + 1
+
+
+
+#Range
+
+for x in seq:
+	print(x)
+
+#Note: range is a generator of numerical values.
+
+range(0,5)
+
+for x in range(0,5):
+	print(x)
+
+list(range(0,5))
+
+list(range(10))
+
+
+
+#List Comprehension
+
+x = [1, 2, 3, 4]
+out = []
+
+for num in x:
+	out.append(num**2)
+
+print(out)
+
+
+#Note: continually appending to lists is quite common in Python; therefore, we have list comprehension.
+#Note: the example below will translate the for loop above using list comprehension.
+
+
+[num**2 for num in x]
+
+out = [num**2 for num in x]
+
+
+#Note: as we can observe, instead of having to define out, and then create a loop where the append function is being continuously used, we can use list comprehension to condense the task we want completed into one line of code.
+#Note: think of this process as a 'for' loop in reverse.
+
+
+
+
+#Functions
+
+def my_func(param1):
+	print(param1)
+
+my_func('hello')
+
+
+def my_func(name):
+	print('Hello ' + name)
+
+my_func('Sean')
+
+
+def my_func(name='Default Name'):
+	print('Hello ' + name)
+
+my_func()
+
+my_func('Sean')
+
+my_func
+
+
+def square(num):
+	return num**2
+
+output = square(2)
+
+output
+
+
+#Note:  Difference between print and return.  When you print something, you're simply printing it for display.  When you're returning something, you're returning the result, but also storing it within the function. 
+
+
+def square(num):
+	"""
+	THIS IS A DOCSTRING.
+	CAN GO MULTIPLE LINES.
+	THIS FUNCTION SQUARES A NUMBER.
+	"""
+	return num**2
+
+
 
 
 
