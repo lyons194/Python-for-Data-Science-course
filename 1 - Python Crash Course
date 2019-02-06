@@ -307,5 +307,126 @@ def square(num):
 
 
 
+Part 4
+
+def times2(var):
+	return var*2
+
+times2(5)
+
+
+#Exploring the map() function.
+
+seq = [1,2,3,4,5]
+
+map(times2, seq)
+
+list(map(times2, seq))
+
+The above function returns all of the components in seq multiplied by 2.
+
+
+
+#Exploring the lambda expression.
+
+#The above code can be run on one line.
+
+def times2(var): return var*2
+
+#Lambda expression, a.k.a. an anonymous function.
+
+lambda var: var*2
+
+#You can also assign a lambda expression to a variable and then use that variable as a function.
+
+t = lambda var: var*2
+
+t(6)
+
+t(10)
+
+
+#An alternate way of writing the above function:
+
+list(map(lambda num: num*3, seq))
+
+#This above function returns the data in seq after multiply them by three.
+
+#Lambda is used in order to condense a function into a single line of code.
+
+#You can always define a function as above without using lambda, but using lambda can be more expedient.
+
+
+
+#Filter function
+
+"""
+The filter function has similar structure to the map function; however, instead of mapping a function to every element in a sequence,
+we will filter out elements from a sequence.
+
+"""
+
+
+filter(lambda num: num%2 == 0, seq)
+
+#This returns the specific place in memory in which the filter function exists.
+
+list(filter(lambda num: num%2 == 0, seq))
+
+#This returns only the even numbers in seq.
+
+
+
+#METHODS
+
+#Methods are calls that you can make off an object that will return a result in some manner.
+
+s = "hello my name is Sam"
+
+s.lower()
+
+#This method returns the contents of s, all in lower case font.
+
+s.upper()
+
+#This method returns the contents of s, all in upper case font.
+
+s.split()
+
+#This method breaks up strings by separating each word and organizing the string into a list.
+
+tweet = 'Go Sports!  #Sports'
+
+tweet.split()
+
+#We can also insert characters into the .split() method in order to divide strings up by an element other than white space between words.
+
+tweet.split("#")
+
+#Using the above example, tweet.split("#") breaks up the string wherever it finds a "#" symbol, instead of breaking up the string wherever white space occurs between the words.
+
+#Note: Because the .split() method converts the string into a list, you can also index it like a list.
+
+tweet.split("#")[1]
+
+
+
+#Useful methods for dictionaries:
+
+e = {'k1': 1, 'k2': 2}
+e
+
+e.keys
+
+
+
+
+
+
+
+
+
+
+
 
 
