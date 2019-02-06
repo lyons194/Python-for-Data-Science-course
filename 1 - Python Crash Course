@@ -416,9 +416,53 @@ tweet.split("#")[1]
 e = {'k1': 1, 'k2': 2}
 e
 
-e.keys
+
+e.keys()
+
+#The above method returns only the keys within a specified dictionary.
 
 
+e.items()
+
+#The above method returns the items within a specified dictionary.
+
+
+e.values()
+
+#The above method returns the values within a specified dictionary.
+
+
+
+
+#Useful methods for lists.
+
+lst = [1,2,3]
+
+lst.pop()
+
+#The above method 'pops' the last item off of the list.
+
+lst
+
+#Now, when you print the list, the list will not include 3, as the pop method has been used.
+
+
+#Another example:
+
+lst2 = [1,2,3,4,5]
+item = lst2.pop()
+lst2
+item
+
+#Now, when I run lst2, lst2 does not include 5.  However, 5 has been 'popped' out of lst2 and has been reassigned under the variable name item.
+
+#Note: the pop method can be used for other points within a list.
+
+first = lst2.pop(0)
+
+lst2
+
+#Now when I run lst2, the first component of lst2 (which was 1) is now not included within lst2.  It has been reassigned to the variable name 'first'.
 
 
 
