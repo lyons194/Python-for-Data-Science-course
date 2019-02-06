@@ -464,11 +464,59 @@ lst2
 
 #Now when I run lst2, the first component of lst2 (which was 1) is now not included within lst2.  It has been reassigned to the variable name 'first'.
 
+first
+
+lst2.appen('new')
 
 
 
+#The In Operator
+
+'x' in [1,2,3]
+
+#returns False
 
 
+'x' in ['x','y','z']
+
+#returns True
+
+
+
+#Tuple unpacking.
+
+x = [(1,2),(3,4),(5,6)]
+x
+
+x[0][1]
+
+#Using these steps, you can extract items from within tuples.
+
+
+for item in x:
+	print(item)
+
+
+#Given that x is defined as a list of tuples, the above function returns all of the tuple pairs listed within list x.
+
+#Tuple unpacking will allow us to unpack the tuples as we go along.
+
+for (a,b) in x:
+	print(a)
+
+#The above code prints the first item within each tuple pair within list x.
+
+
+for (a,b) in x:
+	print(b)
+
+#The above code prints the second item within each tuple pair within list x.
+
+#Note, the parentheses surrounding a and b are optional.
+
+for a,b in x:
+	print(a)
+	print(b)
 
 
 
