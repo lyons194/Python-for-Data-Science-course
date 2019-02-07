@@ -136,11 +136,24 @@ Unless it is your birthday (encoded as a boolean value in the parameters of the 
 """
 
 
+def caught_speeding(speed, is_birthday):
+	if is_birthday == True:
+		if speed <= 65:
+			print("No ticket")
+		elif 60 < speed <= 85:
+			print("Small ticket")
+		elif speed > 85:
+			print("Big ticket")
+	if is_birthday == False:
+		if speed <= 60:
+			print("No ticket")
+		elif 60 < speed <= 80:
+			print("Small ticket")
+		elif speed > 80:
+			print("Big ticket")
 
 
-
-
-
+#End of Chapter 1 problem set.
 
 
 
