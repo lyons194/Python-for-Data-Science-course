@@ -1,1 +1,6 @@
+#NumPy section.
+
+#Numpy arrays usually have the form of either vectors or matrices.
+
+#Vectors are strictly 1-d arrays and matrices are 2-d arrays.
 
