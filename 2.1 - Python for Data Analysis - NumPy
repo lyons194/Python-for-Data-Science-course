@@ -23,9 +23,35 @@ np.array(my_mat)
 
 
 
-#np.arrange()
+#np.arange()
 
 #Similar to the Python range() function.
 
-np.arrange(0,10)
+np.arange(0,10)
+
+np.arange(0,11)
+
+#When using np.arange(), you can enter a third digit in order to specify the step size.
+
+np.arange(0,11,2)
+
+#The above code will return with 0, and then will increase by steps of 2 until reaching 11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
