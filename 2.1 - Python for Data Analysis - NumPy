@@ -4,3 +4,28 @@
 
 #Vectors are strictly 1-d arrays and matrices are 2-d arrays.
 
+
+#Numpy arrays
+
+my_list = [1,2,3]
+
+import numpy as np
+
+np.array(my_list)
+
+#Returns a 1-dimensional array
+
+my_mat = [[1,2,3], [4,5,6], [7,8,9]]
+
+np.array(my_mat)
+
+#This above example creates a matrix of the data within the list.
+
+
+
+#np.arrange()
+
+#Similar to the Python range() function.
+
+np.arrange(0,10)
+
