@@ -38,7 +38,11 @@ np.arange(0,11,2)
 #The above code will return with 0, and then will increase by steps of 2 until reaching 11.
 
 
+import numpy as np
 
+np.zeros((5,5))
+
+#The first number in the tuple represents the number of rows and the second number represents the number of columns.
 
 
 
