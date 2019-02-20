@@ -44,7 +44,22 @@ np.zeros((5,5))
 
 #The first number in the tuple represents the number of rows and the second number represents the number of columns.
 
+np.zeros((2,3))
 
+#The above code returns a 2 x 3 two dimensional array of zeros.  Hence 'zeros'.
+
+np.ones((2,2))
+
+#The above code returns a 2 x 2 two dimensional array of ones.  Hence, 'ones', etc.
+#A method for generating a matrix of ones.
+
+#Another useful function for generating evenly spaced numbers:  'linspace'.
+
+np.linspace(0,5,10)
+
+#For linspace, the first number represents the starting point, the second number represents the ending point, and the third numbers represents how many spaces in between the first two numbers you want to return.
+
+np.linspace(0,5,100)
 
 
 
