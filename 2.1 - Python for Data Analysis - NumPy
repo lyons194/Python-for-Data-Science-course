@@ -109,6 +109,20 @@ np.random.randint(1,100,10)
 
 #Explaining how to use these methods:
 
+arr = np.arange(25)
+
+arr
+
+ranarr = np.random.randint(0,50,10)
+
+ranarr
+
+arr.reshape(5,5)
+
+#Note:  the reshape method is important because it allows you to take an array and reshape it into a matrix with specified dimensions.
+
+#Note:  you will receive an error if you can't fill that matrix.
+
 
 
 
