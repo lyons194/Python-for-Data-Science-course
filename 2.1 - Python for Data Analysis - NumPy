@@ -90,6 +90,25 @@ np.random.randn(2)
 
 #Note:  The above code returns two random samples from a normal distribution centered around 0.
 
+#If we want the above code returned in a two dimensional format, we can use the following code:
+
+np.random.randn(4,4)
+
+
+#Final random method we're going to learn about:  'randint'.
+
+np.random.randint(1,100)
+
+#Note:  if you simply put in two numbers (as seen above), then this random method will return a single random number between the two inputs.
+
+#The first number is inclusive and the second number is exclusive.
+
+np.random.randint(1,100,10)
+
+#Note:  The above code returns 10 random integers that are / in between the first two input numbers.
+
+#Explaining how to use these methods:
+
 
 
 
