@@ -62,8 +62,35 @@ np.linspace(0,5,10)
 np.linspace(0,5,100)
 
 #Important Note:  Although the returned data from the above code looks two dimensional, it is actually one dimensional, as there is only one pair of brackets.  If there were two bracket pairs, then it would be truly two dimensional.
+
 #Note:  Do not confuse inspace with arange.
-#
+
+#Note:  linspace returns the specified amount of numbers between the first two numbers.  Arange returns the step size between the two numbers.
+
+#Creating an identity matrix.
+
+
+np.eye(4)
+
+#np.eye takes a single digit for an input, because it generate a matrix based on the squared value of the input.
+
+#Creating arrays of random numbers.
+
+np.random.rand(5)
+
+#Above, I created a one dimensional array using one of the (many) random-esque methods for numpy.
+
+np.random.rand(5,5)
+
+#Above, I created a two dimensional array of random numbers.  Note also that I did not need to use a tuple to generate a two dimensional array when using this random method.  However, using a tuple within a method in order to generate two dimensional arrays is apparently common when using other numpy methods.
+
+#Below:  How to return random samples from a normal distribution.
+
+np.random.randn(2)
+
+#Note:  The above code returns two random samples from a normal distribution centered around 0.
+
+
 
 
 
